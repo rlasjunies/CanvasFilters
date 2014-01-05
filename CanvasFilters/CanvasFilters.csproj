@@ -18,7 +18,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="img\1149616747_1370597563.jpg" />
+    <Content Include="img\candy-crush-2.jpg" />
+    <Content Include="img\Candy-Crush-Level-4.jpg" />
+    <Content Include="img\candy-crush-saga-06-621x535.jpg" />
+    <Content Include="img\candy-crush.jpg" />
+    <Content Include="Scripts\jquery-2.0.3.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.map" />
+    <TypeScriptCompile Include="canvas.ts" />
     <Content Include="default.htm" />
+    <Content Include="img\demo_small.png" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\jquery-2.0.3-vsdoc.js" />
+    <Content Include="Scripts\typings\jquery\jquery.d.ts" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>

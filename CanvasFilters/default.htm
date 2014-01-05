@@ -5,11 +5,21 @@
     <meta charset="utf-8" />
     <title>TypeScript HTML App</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="Scripts/jquery-2.0.3.min.js"></script>
     <script src="app.js"></script>
 </head>
 <body>
-    <h1>TypeScript HTML App</h1>
-
+    <h1>Canvas filtering with typescript</h1>
+    <img id="orig" src="img/candy-crush-2.jpg" width="600" height="337">
+    <img id="dest" width="600" height="337">
+    <button onclick="grayscale()">Grayscale the image</button>
+    <button onclick="brightness()">Brightness</button>
+    <button onclick="threshold()">Threshold</button>
+    <button onclick="sharpen()">Sharpen</button>
+    <button onclick="myblur()">Blur</button>
+    <button onclick="sobel()">Sobel</button>
     <div id="content"></div>
+<script src="canvas.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
